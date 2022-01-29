@@ -43,7 +43,7 @@
       "last 1 safari version"
     ]
   },
-  "description": "-Aplicar estilos a los componentes, login, homepage, inventory, trabajos, perfil, nomatch -Asegurar protejer bien las rutas estando logeado o no. -Tener metricas en la homepage ( final )",
+  "description": "",
   "main": "index.js",
   "devDependencies": {},
   "author": "",

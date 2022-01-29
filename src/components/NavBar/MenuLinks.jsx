@@ -15,10 +15,12 @@ export default function MenuLinks({ isOpen }) {
         direction={['column', 'row', 'row', 'row']}
         pt={[4, 4, 0, 0]}
       >
-        <MenuItem to="/">Home</MenuItem>
+        {/* <MenuItem to="/">HOME</MenuItem> */}
         <MenuItem to="/inventory">INVENTARIO </MenuItem>
-        <MenuItem to="/jobs">TRABAJOS </MenuItem>
-        <MenuItem to="/perfil" isLast>
+        {/* <MenuItem to="/jobs">TRABAJOS </MenuItem> */}
+        <MenuItem to="/workers">TRABAJADORES </MenuItem>
+        <MenuItem to="/pickup">RETIROS </MenuItem>
+        <MenuItem to="/profile" isLast>
           <Button
             size="sm"
             rounded="md"

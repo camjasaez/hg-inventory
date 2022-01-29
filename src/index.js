@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import { Auth0Provider } from '@auth0/auth0-react';
-
 import { ChakraProvider } from '@chakra-ui/react';
 import theme from './theme';
 const domain = process.env.REACT_APP_AUTH_DOMAIN;

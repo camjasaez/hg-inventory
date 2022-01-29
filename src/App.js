@@ -1,11 +1,11 @@
 import AppRouter from './components/AppRouter';
-import AuthContextProvider from './context/AuthContext';
+import InvContext from './context/InvContext';
 
 function App() {
   return (
-    <AuthContextProvider>
+    <InvContext>
       <AppRouter />
-    </AuthContextProvider>
+    </InvContext>
   );
 }
 
