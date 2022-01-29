@@ -6,6 +6,9 @@ import Login from '../pages/Login';
 import NoMatch from '../pages/NoMatch';
 import PrivateRoute from './PrivateRoute';
 import Perfil from '../pages/Perfil';
+import Pickup from '../pages/Pickup';
+import Workers from '../pages/Workers';
+import Pickups from '../pages/Pickups';
 
 export default function AppRouter(props) {
   return (
@@ -36,10 +39,34 @@ export default function AppRouter(props) {
           }
         />
         <Route
-          path="/perfil"
+          path="/profile"
           element={
             <PrivateRoute>
               <Perfil />
+            </PrivateRoute>
+          }
+        />
+        <Route
+          path="/pickup"
+          element={
+            <PrivateRoute>
+              <Pickup />
+            </PrivateRoute>
+          }
+        />
+        <Route
+          path="/workers"
+          element={
+            <PrivateRoute>
+              <Workers />
+            </PrivateRoute>
+          }
+        />
+        <Route
+          path="/pickups"
+          element={
+            <PrivateRoute>
+              <Pickups />
             </PrivateRoute>
           }
         />
