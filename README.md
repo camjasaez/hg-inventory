@@ -8,6 +8,8 @@ _**🚧🔨 V0.1.0 Proyecto en beta realizado en practica profesional 1🚧🔨*
 - Benjamín Mosso Miller
 - Camilo Sáez Garrido
 
+## Link demo: [hg-inventory]
+
 ## 🛠️ Herramientas y librerias
 
 - [React] - Una biblioteca de JavaScript para construir interfaces de usuario.
@@ -17,3 +19,4 @@ _**🚧🔨 V0.1.0 Proyecto en beta realizado en practica profesional 1🚧🔨*
 [react]: https://es.reactjs.org/
 [nodejs]: https://nodejs.org/es/
 [supabase]: https://supabase.com/
+[hg-inventory]: https://hg-inventory.netlify.app
